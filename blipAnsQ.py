@@ -18,4 +18,5 @@ inputs = processor(raw_image, question, return_tensors="pt")
 out = model.generate(**inputs)
 # Decode and print the answer to the question
 answer = processor.decode(out[0], skip_special_tokens=True)
-print(f"Answer: {answer}")
+#print(f"Answer: {answer}")
+print(inputs)
