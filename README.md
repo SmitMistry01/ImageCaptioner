@@ -5,3 +5,7 @@ For venv
 \.venv\Scripts\activate
 
 python blip.py
+
+
+For virtula image reasoning
+#Add image path to img_url
